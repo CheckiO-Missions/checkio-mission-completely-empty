@@ -25,6 +25,12 @@ TESTS = {
         },{
             "input": [[[],[1]]],
             "answer": False
+        },{
+            "input": [[0]],
+            "answer": False
+        },{
+            "input": [['']],
+            "answer": False
         }
     ],
     "Extra": [
