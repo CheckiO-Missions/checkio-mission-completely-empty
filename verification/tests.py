@@ -40,7 +40,14 @@ TESTS = {
         },{
             "input": [[[{'No':'WAY'}]]],
             "answer": False
+        },{
+            "input": "[iter(())]",
+            "answer": True
+        },{
+            "input": "[(),(),()]",
+            "answer": True
         }
+
     ],
     "Extra": [
         {
