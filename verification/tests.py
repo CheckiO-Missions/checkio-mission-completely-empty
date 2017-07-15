@@ -32,14 +32,8 @@ TESTS = {
             "input": [['']],
             "answer": True
         },{
-            "input": [['no']],
-            "answer": False
-        },{
             "input": [[[],[{'':'No WAY'}]]],
             "answer": True
-        },{
-            "input": [[[{'No':'WAY'}]]],
-            "answer": False
         },{
             "input": "[iter(())]",
             "answer": True
