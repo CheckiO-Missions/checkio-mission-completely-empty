@@ -50,6 +50,12 @@ TESTS = {
         },{
             "input": [[[1],[1]]],
             "answer": False
+        },{
+            "input": [[None]],
+            "answer": False
+        },{
+            "input": "[iter((1,))]",
+            "answer": False
         }
     ]
 }
