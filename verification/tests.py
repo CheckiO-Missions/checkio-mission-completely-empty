@@ -56,6 +56,9 @@ TESTS = {
         },{
             "input": "[iter((1,))]",
             "answer": False
+        },{
+            "input": "[type('', (), {'__iter__': None})()]",
+            "answer": False
         }
     ]
 }
