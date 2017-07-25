@@ -61,7 +61,7 @@ TESTS = {
             "answer": False
         },{
             "input": "type('', (), {'__getitem__': ().__getitem__})()",
-            "answer": False
+            "answer": True
         }
     ]
 }
